@@ -456,7 +456,7 @@ service: serverless-artillery-XnBa473psJ
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs10.x
   iamRoleStatements:
     # This policy allows the function to invoke itself which is important if the script is larger than a single
     # function can produce
@@ -2114,4 +2114,3 @@ If you are installing into a node_modules owned by root and getting error `npm E
 
 # If you've read this far
 Please let us know any feedback on this tool. We would love to hear from you. Thank you!
-
